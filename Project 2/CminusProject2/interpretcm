@@ -1,0 +1,6 @@
+cd input
+for i in `ls *.cm` 
+do
+echo $i
+../cmc $i
+done

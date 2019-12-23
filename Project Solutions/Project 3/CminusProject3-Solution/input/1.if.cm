@@ -1,0 +1,11 @@
+int a;
+
+int main() {
+
+  write("enter a:");
+  read(a);
+  if (a != 0) { 
+    write(1);
+  }
+  write("complete!");
+}

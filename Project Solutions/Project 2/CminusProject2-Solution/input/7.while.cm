@@ -1,0 +1,14 @@
+int a, i, s;
+
+int main() {
+
+  write("enter a:");
+  read(a);
+  s=0;
+  i=0;
+  while (i<=a && i<=100) {
+    s=s+i;
+    i=i+1;
+  }
+  write(s);
+}

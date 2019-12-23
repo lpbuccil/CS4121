@@ -1,0 +1,12 @@
+int i,j,k,l,m;
+
+int main () {
+
+  i=1; j=2; k=3; l=4;
+
+   m= k < j + l ;
+   write(m);
+   write(i * l > j * k);
+   write(k * l > j + k + l);
+   write(k * (l > j) + k + l);
+}

@@ -1,0 +1,28 @@
+int a,b;
+	
+int main() {
+	
+	write("enter a:"); read(a);
+	write("enter b:"); read(b);
+	
+	if (b > a) { 
+		if (a > 0) {
+		    write("a = ");
+			write(a);
+		}
+		else {
+		    write("b = ");
+			write(b);
+		}
+	}
+	else {
+		if (a < 0) {
+		    write("a = ");
+			write(a);
+	        }
+		else {
+		    write("b = ");
+			write(b);
+		}
+	}
+}

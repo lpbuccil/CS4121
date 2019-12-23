@@ -1,0 +1,16 @@
+int a[100];
+int i;
+
+int main () {
+   write("enter i =");
+   read(i);
+  
+   if (i<0 || i>=100) {
+     write("out of bound!");
+   } else {
+     a[i] = i*2;
+     a[5] = 5;
+
+     write(a[i]);
+  }   
+}

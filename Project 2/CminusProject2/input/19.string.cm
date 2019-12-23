@@ -1,0 +1,6 @@
+int main() {
+	write("Your grader");
+	write("will put");
+	write("a random");
+	write("string here");
+}

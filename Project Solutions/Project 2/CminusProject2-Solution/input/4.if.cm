@@ -1,0 +1,23 @@
+int a,b;
+
+int main()
+{
+	a = 0;
+	b = a - 2;
+	if (a) { 
+	   write(1);
+	} else {
+          write(0);
+        }
+
+	if (b) {
+	  if (a) {
+	     write(0);
+	  } else {
+	     write(1);
+	  }
+        }
+        else {
+	    write(0);
+	}
+}

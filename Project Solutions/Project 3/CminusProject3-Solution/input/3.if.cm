@@ -1,0 +1,14 @@
+int a,b;
+
+int main()
+{
+	write("Enter a:");
+	read(a);
+	if (a) {
+	    b = 0 - a;
+	    write(b);
+	} else {
+	    b = a;
+	    write(b);
+       }
+}
